@@ -31,6 +31,8 @@
 		EFFD9A321A6CFD41003AFA8B /* HomeBG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */; };
 		EFFD9A361A6D13E0003AFA8B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A351A6D13E0003AFA8B /* Social.framework */; };
 		EFFD9A381A6D13FD003AFA8B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A371A6D13FD003AFA8B /* Accounts.framework */; };
+		EFFD9A3A1A6D184E003AFA8B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A391A6D184E003AFA8B /* FacebookSDK.framework */; };
+		EFFD9A3C1A6D19A4003AFA8B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A3B1A6D19A4003AFA8B /* ParseFacebookUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeBG@3x.png"; sourceTree = "<group>"; };
 		EFFD9A351A6D13E0003AFA8B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		EFFD9A371A6D13FD003AFA8B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EFFD9A391A6D184E003AFA8B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		EFFD9A3B1A6D19A4003AFA8B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				EFFD9A071A6CE795003AFA8B /* MobileCoreServices.framework in Frameworks */,
 				EFFD9A031A6CE782003AFA8B /* CoreGraphics.framework in Frameworks */,
 				EFFD9A011A6CE779003AFA8B /* CFNetwork.framework in Frameworks */,
+				EFFD9A3C1A6D19A4003AFA8B /* ParseFacebookUtils.framework in Frameworks */,
 				EFFD9A381A6D13FD003AFA8B /* Accounts.framework in Frameworks */,
 				EFFD9A361A6D13E0003AFA8B /* Social.framework in Frameworks */,
 				EFFD9A131A6CE7C5003AFA8B /* libsqlite3.dylib in Frameworks */,
@@ -93,6 +98,7 @@
 				EFFD9A0B1A6CE7A5003AFA8B /* Security.framework in Frameworks */,
 				EFFD9A181A6CEAC2003AFA8B /* Parse.framework in Frameworks */,
 				EFFD9A091A6CE79D003AFA8B /* QuartzCore.framework in Frameworks */,
+				EFFD9A3A1A6D184E003AFA8B /* FacebookSDK.framework in Frameworks */,
 				EFFD9A051A6CE78C003AFA8B /* CoreLocation.framework in Frameworks */,
 				EFFD99FF1A6CE771003AFA8B /* AudioToolbox.framework in Frameworks */,
 			);
@@ -111,6 +117,7 @@
 		EF37A5BB1A6CD994001BB5EF = {
 			isa = PBXGroup;
 			children = (
+				EFFD9A391A6D184E003AFA8B /* FacebookSDK.framework */,
 				EFFD9A371A6D13FD003AFA8B /* Accounts.framework */,
 				EFFD9A351A6D13E0003AFA8B /* Social.framework */,
 				EFFD9A121A6CE7C5003AFA8B /* libsqlite3.dylib */,
@@ -145,6 +152,7 @@
 				EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */,
 				EFFD9A151A6CEAC2003AFA8B /* Bolts.framework */,
 				EFFD9A161A6CEAC2003AFA8B /* Parse.framework */,
+				EFFD9A3B1A6D19A4003AFA8B /* ParseFacebookUtils.framework */,
 				EF37A5C91A6CD994001BB5EF /* AppDelegate.swift */,
 				EFFD9A271A6CF0B6003AFA8B /* SignUpViewController.swift */,
 				EF37A5CB1A6CD994001BB5EF /* FirstViewController.swift */,

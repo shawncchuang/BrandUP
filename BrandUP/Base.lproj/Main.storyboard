@@ -130,6 +130,9 @@
                                 <state key="normal" image="FB SignIn Icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="FacebookSignUp:" destination="Xit-jk-GR8" eventType="touchUpInside" id="Md9-sq-1Ym"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQs-IF-5iQ">
                                 <rect key="frame" x="40" y="507" width="119" height="30"/>
@@ -233,7 +236,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <segue destination="49e-Tb-3d3" kind="push" identifier="signedin" id="ugV-qx-JjT"/>
+                        <segue destination="49e-Tb-3d3" kind="show" identifier="signedin" id="ugV-qx-JjT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Wx-7d-35S" userLabel="First Responder" sceneMemberID="firstResponder"/>
