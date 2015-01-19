@@ -10,10 +10,24 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    var signupActive = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        println(PFUser.currentUser())
+        
+        if PFUser.currentUser() != nil {
+
+          
+            self.performSegueWithIdentifier("signedin", sender: self)
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

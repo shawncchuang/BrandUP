@@ -28,6 +28,9 @@
 		EFFD9A171A6CEAC2003AFA8B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A151A6CEAC2003AFA8B /* Bolts.framework */; };
 		EFFD9A181A6CEAC2003AFA8B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A161A6CEAC2003AFA8B /* Parse.framework */; };
 		EFFD9A281A6CF0B6003AFA8B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD9A271A6CF0B6003AFA8B /* SignUpViewController.swift */; };
+		EFFD9A321A6CFD41003AFA8B /* HomeBG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */; };
+		EFFD9A361A6D13E0003AFA8B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A351A6D13E0003AFA8B /* Social.framework */; };
+		EFFD9A381A6D13FD003AFA8B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A371A6D13FD003AFA8B /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		EFFD9A161A6CEAC2003AFA8B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		EFFD9A261A6CEF91003AFA8B /* BrandUP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrandUP-Bridging-Header.h"; sourceTree = "<group>"; };
 		EFFD9A271A6CF0B6003AFA8B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeBG@3x.png"; sourceTree = "<group>"; };
+		EFFD9A351A6D13E0003AFA8B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EFFD9A371A6D13FD003AFA8B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,18 +80,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFD9A0F1A6CE7B4003AFA8B /* SystemConfiguration.framework in Frameworks */,
+				EFFD9A0D1A6CE7AD003AFA8B /* StoreKit.framework in Frameworks */,
+				EFFD9A071A6CE795003AFA8B /* MobileCoreServices.framework in Frameworks */,
+				EFFD9A031A6CE782003AFA8B /* CoreGraphics.framework in Frameworks */,
+				EFFD9A011A6CE779003AFA8B /* CFNetwork.framework in Frameworks */,
+				EFFD9A381A6D13FD003AFA8B /* Accounts.framework in Frameworks */,
+				EFFD9A361A6D13E0003AFA8B /* Social.framework in Frameworks */,
 				EFFD9A131A6CE7C5003AFA8B /* libsqlite3.dylib in Frameworks */,
 				EFFD9A111A6CE7BC003AFA8B /* libz.dylib in Frameworks */,
-				EFFD9A0F1A6CE7B4003AFA8B /* SystemConfiguration.framework in Frameworks */,
 				EFFD9A171A6CEAC2003AFA8B /* Bolts.framework in Frameworks */,
-				EFFD9A0D1A6CE7AD003AFA8B /* StoreKit.framework in Frameworks */,
 				EFFD9A0B1A6CE7A5003AFA8B /* Security.framework in Frameworks */,
 				EFFD9A181A6CEAC2003AFA8B /* Parse.framework in Frameworks */,
 				EFFD9A091A6CE79D003AFA8B /* QuartzCore.framework in Frameworks */,
-				EFFD9A071A6CE795003AFA8B /* MobileCoreServices.framework in Frameworks */,
 				EFFD9A051A6CE78C003AFA8B /* CoreLocation.framework in Frameworks */,
-				EFFD9A031A6CE782003AFA8B /* CoreGraphics.framework in Frameworks */,
-				EFFD9A011A6CE779003AFA8B /* CFNetwork.framework in Frameworks */,
 				EFFD99FF1A6CE771003AFA8B /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +111,8 @@
 		EF37A5BB1A6CD994001BB5EF = {
 			isa = PBXGroup;
 			children = (
+				EFFD9A371A6D13FD003AFA8B /* Accounts.framework */,
+				EFFD9A351A6D13E0003AFA8B /* Social.framework */,
 				EFFD9A121A6CE7C5003AFA8B /* libsqlite3.dylib */,
 				EFFD9A101A6CE7BC003AFA8B /* libz.dylib */,
 				EFFD9A0E1A6CE7B4003AFA8B /* SystemConfiguration.framework */,
@@ -132,6 +142,7 @@
 		EF37A5C61A6CD994001BB5EF /* BrandUP */ = {
 			isa = PBXGroup;
 			children = (
+				EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */,
 				EFFD9A151A6CEAC2003AFA8B /* Bolts.framework */,
 				EFFD9A161A6CEAC2003AFA8B /* Parse.framework */,
 				EF37A5C91A6CD994001BB5EF /* AppDelegate.swift */,
@@ -253,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF37A5D11A6CD994001BB5EF /* Main.storyboard in Resources */,
+				EFFD9A321A6CFD41003AFA8B /* HomeBG@3x.png in Resources */,
 				EF37A5D61A6CD994001BB5EF /* LaunchScreen.xib in Resources */,
 				EF37A5D31A6CD994001BB5EF /* Images.xcassets in Resources */,
 			);
