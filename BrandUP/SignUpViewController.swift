@@ -55,6 +55,7 @@ class SignUpViewController: UIViewController {
         super.viewDidAppear(animated)
         
         println(PFUser.currentUser())
+    
         
         if PFUser.currentUser() != nil {
             

@@ -14,8 +14,8 @@
 		EF37A5D31A6CD994001BB5EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF37A5D21A6CD994001BB5EF /* Images.xcassets */; };
 		EF37A5D61A6CD994001BB5EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF37A5D41A6CD994001BB5EF /* LaunchScreen.xib */; };
 		EF37A5E21A6CD994001BB5EF /* BrandUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37A5E11A6CD994001BB5EF /* BrandUPTests.swift */; };
+		EFB492461A6FC3B700BD79B5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB492451A6FC3B700BD79B5 /* Bolts.framework */; };
 		EFCBA9B31A6FAC6D0067380E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBA9B21A6FAC6D0067380E /* LogInViewController.swift */; };
-		EFCBA9BD1A6FB33F0067380E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCBA9BA1A6FB33F0067380E /* Bolts.framework */; };
 		EFCBA9BE1A6FB33F0067380E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCBA9BB1A6FB33F0067380E /* Parse.framework */; };
 		EFCBA9BF1A6FB33F0067380E /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCBA9BC1A6FB33F0067380E /* ParseFacebookUtils.framework */; };
 		EFFD99FF1A6CE771003AFA8B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD99FE1A6CE771003AFA8B /* AudioToolbox.framework */; };
@@ -58,8 +58,8 @@
 		EF37A5DB1A6CD994001BB5EF /* BrandUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37A5E01A6CD994001BB5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF37A5E11A6CD994001BB5EF /* BrandUPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandUPTests.swift; sourceTree = "<group>"; };
+		EFB492451A6FC3B700BD79B5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		EFCBA9B21A6FAC6D0067380E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		EFCBA9BA1A6FB33F0067380E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		EFCBA9BB1A6FB33F0067380E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		EFCBA9BC1A6FB33F0067380E /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		EFFD99FE1A6CE771003AFA8B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -88,7 +88,6 @@
 			files = (
 				EFFD9A3A1A6D184E003AFA8B /* FacebookSDK.framework in Frameworks */,
 				EFCBA9BE1A6FB33F0067380E /* Parse.framework in Frameworks */,
-				EFCBA9BD1A6FB33F0067380E /* Bolts.framework in Frameworks */,
 				EFCBA9BF1A6FB33F0067380E /* ParseFacebookUtils.framework in Frameworks */,
 				EFFD9A0F1A6CE7B4003AFA8B /* SystemConfiguration.framework in Frameworks */,
 				EFFD9A0D1A6CE7AD003AFA8B /* StoreKit.framework in Frameworks */,
@@ -99,6 +98,7 @@
 				EFFD9A361A6D13E0003AFA8B /* Social.framework in Frameworks */,
 				EFFD9A131A6CE7C5003AFA8B /* libsqlite3.dylib in Frameworks */,
 				EFFD9A111A6CE7BC003AFA8B /* libz.dylib in Frameworks */,
+				EFB492461A6FC3B700BD79B5 /* Bolts.framework in Frameworks */,
 				EFFD9A0B1A6CE7A5003AFA8B /* Security.framework in Frameworks */,
 				EFFD9A091A6CE79D003AFA8B /* QuartzCore.framework in Frameworks */,
 				EFFD9A051A6CE78C003AFA8B /* CoreLocation.framework in Frameworks */,
@@ -151,7 +151,7 @@
 		EF37A5C61A6CD994001BB5EF /* BrandUP */ = {
 			isa = PBXGroup;
 			children = (
-				EFCBA9BA1A6FB33F0067380E /* Bolts.framework */,
+				EFB492451A6FC3B700BD79B5 /* Bolts.framework */,
 				EFCBA9BB1A6FB33F0067380E /* Parse.framework */,
 				EFCBA9BC1A6FB33F0067380E /* ParseFacebookUtils.framework */,
 				EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */,
