@@ -14,6 +14,10 @@
 		EF37A5D31A6CD994001BB5EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF37A5D21A6CD994001BB5EF /* Images.xcassets */; };
 		EF37A5D61A6CD994001BB5EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF37A5D41A6CD994001BB5EF /* LaunchScreen.xib */; };
 		EF37A5E21A6CD994001BB5EF /* BrandUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37A5E11A6CD994001BB5EF /* BrandUPTests.swift */; };
+		EFCBA9B31A6FAC6D0067380E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBA9B21A6FAC6D0067380E /* LogInViewController.swift */; };
+		EFCBA9B71A6FB1200067380E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCBA9B41A6FB1200067380E /* Bolts.framework */; };
+		EFCBA9B81A6FB1200067380E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCBA9B51A6FB1200067380E /* Parse.framework */; };
+		EFCBA9B91A6FB1200067380E /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCBA9B61A6FB1200067380E /* ParseFacebookUtils.framework */; };
 		EFFD99FF1A6CE771003AFA8B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD99FE1A6CE771003AFA8B /* AudioToolbox.framework */; };
 		EFFD9A011A6CE779003AFA8B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A001A6CE779003AFA8B /* CFNetwork.framework */; };
 		EFFD9A031A6CE782003AFA8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A021A6CE782003AFA8B /* CoreGraphics.framework */; };
@@ -25,14 +29,11 @@
 		EFFD9A0F1A6CE7B4003AFA8B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A0E1A6CE7B4003AFA8B /* SystemConfiguration.framework */; };
 		EFFD9A111A6CE7BC003AFA8B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A101A6CE7BC003AFA8B /* libz.dylib */; };
 		EFFD9A131A6CE7C5003AFA8B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A121A6CE7C5003AFA8B /* libsqlite3.dylib */; };
-		EFFD9A171A6CEAC2003AFA8B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A151A6CEAC2003AFA8B /* Bolts.framework */; };
-		EFFD9A181A6CEAC2003AFA8B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A161A6CEAC2003AFA8B /* Parse.framework */; };
 		EFFD9A281A6CF0B6003AFA8B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD9A271A6CF0B6003AFA8B /* SignUpViewController.swift */; };
 		EFFD9A321A6CFD41003AFA8B /* HomeBG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */; };
 		EFFD9A361A6D13E0003AFA8B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A351A6D13E0003AFA8B /* Social.framework */; };
 		EFFD9A381A6D13FD003AFA8B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A371A6D13FD003AFA8B /* Accounts.framework */; };
 		EFFD9A3A1A6D184E003AFA8B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A391A6D184E003AFA8B /* FacebookSDK.framework */; };
-		EFFD9A3C1A6D19A4003AFA8B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFD9A3B1A6D19A4003AFA8B /* ParseFacebookUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,10 @@
 		EF37A5DB1A6CD994001BB5EF /* BrandUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37A5E01A6CD994001BB5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF37A5E11A6CD994001BB5EF /* BrandUPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandUPTests.swift; sourceTree = "<group>"; };
+		EFCBA9B21A6FAC6D0067380E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		EFCBA9B41A6FB1200067380E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
+		EFCBA9B51A6FB1200067380E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		EFCBA9B61A6FB1200067380E /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		EFFD99FE1A6CE771003AFA8B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EFFD9A001A6CE779003AFA8B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EFFD9A021A6CE782003AFA8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,15 +73,12 @@
 		EFFD9A0E1A6CE7B4003AFA8B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EFFD9A101A6CE7BC003AFA8B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		EFFD9A121A6CE7C5003AFA8B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		EFFD9A151A6CEAC2003AFA8B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		EFFD9A161A6CEAC2003AFA8B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		EFFD9A261A6CEF91003AFA8B /* BrandUP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrandUP-Bridging-Header.h"; sourceTree = "<group>"; };
 		EFFD9A271A6CF0B6003AFA8B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeBG@3x.png"; sourceTree = "<group>"; };
 		EFFD9A351A6D13E0003AFA8B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		EFFD9A371A6D13FD003AFA8B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		EFFD9A391A6D184E003AFA8B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		EFFD9A3B1A6D19A4003AFA8B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,19 +86,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFCBA9B71A6FB1200067380E /* Bolts.framework in Frameworks */,
 				EFFD9A0F1A6CE7B4003AFA8B /* SystemConfiguration.framework in Frameworks */,
 				EFFD9A0D1A6CE7AD003AFA8B /* StoreKit.framework in Frameworks */,
 				EFFD9A071A6CE795003AFA8B /* MobileCoreServices.framework in Frameworks */,
 				EFFD9A031A6CE782003AFA8B /* CoreGraphics.framework in Frameworks */,
+				EFCBA9B91A6FB1200067380E /* ParseFacebookUtils.framework in Frameworks */,
 				EFFD9A011A6CE779003AFA8B /* CFNetwork.framework in Frameworks */,
-				EFFD9A3C1A6D19A4003AFA8B /* ParseFacebookUtils.framework in Frameworks */,
+				EFCBA9B81A6FB1200067380E /* Parse.framework in Frameworks */,
 				EFFD9A381A6D13FD003AFA8B /* Accounts.framework in Frameworks */,
 				EFFD9A361A6D13E0003AFA8B /* Social.framework in Frameworks */,
 				EFFD9A131A6CE7C5003AFA8B /* libsqlite3.dylib in Frameworks */,
 				EFFD9A111A6CE7BC003AFA8B /* libz.dylib in Frameworks */,
-				EFFD9A171A6CEAC2003AFA8B /* Bolts.framework in Frameworks */,
 				EFFD9A0B1A6CE7A5003AFA8B /* Security.framework in Frameworks */,
-				EFFD9A181A6CEAC2003AFA8B /* Parse.framework in Frameworks */,
 				EFFD9A091A6CE79D003AFA8B /* QuartzCore.framework in Frameworks */,
 				EFFD9A3A1A6D184E003AFA8B /* FacebookSDK.framework in Frameworks */,
 				EFFD9A051A6CE78C003AFA8B /* CoreLocation.framework in Frameworks */,
@@ -117,6 +119,7 @@
 		EF37A5BB1A6CD994001BB5EF = {
 			isa = PBXGroup;
 			children = (
+				EFCBA9B61A6FB1200067380E /* ParseFacebookUtils.framework */,
 				EFFD9A391A6D184E003AFA8B /* FacebookSDK.framework */,
 				EFFD9A371A6D13FD003AFA8B /* Accounts.framework */,
 				EFFD9A351A6D13E0003AFA8B /* Social.framework */,
@@ -149,12 +152,12 @@
 		EF37A5C61A6CD994001BB5EF /* BrandUP */ = {
 			isa = PBXGroup;
 			children = (
+				EFCBA9B41A6FB1200067380E /* Bolts.framework */,
+				EFCBA9B51A6FB1200067380E /* Parse.framework */,
 				EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */,
-				EFFD9A151A6CEAC2003AFA8B /* Bolts.framework */,
-				EFFD9A161A6CEAC2003AFA8B /* Parse.framework */,
-				EFFD9A3B1A6D19A4003AFA8B /* ParseFacebookUtils.framework */,
 				EF37A5C91A6CD994001BB5EF /* AppDelegate.swift */,
 				EFFD9A271A6CF0B6003AFA8B /* SignUpViewController.swift */,
+				EFCBA9B21A6FAC6D0067380E /* LogInViewController.swift */,
 				EF37A5CB1A6CD994001BB5EF /* FirstViewController.swift */,
 				EF37A5CD1A6CD994001BB5EF /* SecondViewController.swift */,
 				EF37A5CF1A6CD994001BB5EF /* Main.storyboard */,
@@ -295,6 +298,7 @@
 				EF37A5CE1A6CD994001BB5EF /* SecondViewController.swift in Sources */,
 				EF37A5CA1A6CD994001BB5EF /* AppDelegate.swift in Sources */,
 				EFFD9A281A6CF0B6003AFA8B /* SignUpViewController.swift in Sources */,
+				EFCBA9B31A6FAC6D0067380E /* LogInViewController.swift in Sources */,
 				EF37A5CC1A6CD994001BB5EF /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

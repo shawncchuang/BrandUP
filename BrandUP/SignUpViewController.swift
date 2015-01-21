@@ -59,7 +59,7 @@ class SignUpViewController: UIViewController {
         if PFUser.currentUser() != nil {
             
             
-            self.performSegueWithIdentifier("signedin", sender: self)
+            //self.performSegueWithIdentifier("signedin", sender: self)
             
         }
     }
