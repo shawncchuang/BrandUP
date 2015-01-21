@@ -17,9 +17,7 @@ class LogInViewController: UIViewController {
     
     @IBAction func LoginHandler(sender: AnyObject) {
         
-       
-        
-        
+    
         
         
     }
