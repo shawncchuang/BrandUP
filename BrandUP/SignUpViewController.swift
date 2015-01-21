@@ -15,7 +15,7 @@ class SignUpViewController: UIViewController {
     
     
     @IBAction func FacebookSignUp(sender: AnyObject) {
-        
+    
         
         PFFacebookUtils.logInWithPermissions(fb_permissions,{(user: PFUser!, error: NSError!) -> Void in
             
@@ -55,7 +55,7 @@ class SignUpViewController: UIViewController {
         super.viewDidAppear(animated)
         
         println(PFUser.currentUser())
-    
+
         
         if PFUser.currentUser() != nil {
             

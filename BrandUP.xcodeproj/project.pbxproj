@@ -58,10 +58,10 @@
 		EF37A5DB1A6CD994001BB5EF /* BrandUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37A5E01A6CD994001BB5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF37A5E11A6CD994001BB5EF /* BrandUPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandUPTests.swift; sourceTree = "<group>"; };
-		EFB492451A6FC3B700BD79B5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		EFB492451A6FC3B700BD79B5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = BrandUP/Bolts.framework; sourceTree = "<group>"; };
 		EFCBA9B21A6FAC6D0067380E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		EFCBA9BB1A6FB33F0067380E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		EFCBA9BC1A6FB33F0067380E /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		EFCBA9BB1A6FB33F0067380E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = BrandUP/Parse.framework; sourceTree = "<group>"; };
+		EFCBA9BC1A6FB33F0067380E /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = BrandUP/ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		EFFD99FE1A6CE771003AFA8B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EFFD9A001A6CE779003AFA8B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EFFD9A021A6CE782003AFA8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +119,9 @@
 		EF37A5BB1A6CD994001BB5EF = {
 			isa = PBXGroup;
 			children = (
+				EFB492451A6FC3B700BD79B5 /* Bolts.framework */,
+				EFCBA9BB1A6FB33F0067380E /* Parse.framework */,
+				EFCBA9BC1A6FB33F0067380E /* ParseFacebookUtils.framework */,
 				EFFD9A391A6D184E003AFA8B /* FacebookSDK.framework */,
 				EFFD9A371A6D13FD003AFA8B /* Accounts.framework */,
 				EFFD9A351A6D13E0003AFA8B /* Social.framework */,
@@ -151,9 +154,6 @@
 		EF37A5C61A6CD994001BB5EF /* BrandUP */ = {
 			isa = PBXGroup;
 			children = (
-				EFB492451A6FC3B700BD79B5 /* Bolts.framework */,
-				EFCBA9BB1A6FB33F0067380E /* Parse.framework */,
-				EFCBA9BC1A6FB33F0067380E /* ParseFacebookUtils.framework */,
 				EFFD9A311A6CFD41003AFA8B /* HomeBG@3x.png */,
 				EF37A5C91A6CD994001BB5EF /* AppDelegate.swift */,
 				EFFD9A271A6CF0B6003AFA8B /* SignUpViewController.swift */,

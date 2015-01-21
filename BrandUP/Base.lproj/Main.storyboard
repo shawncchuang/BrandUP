@@ -122,7 +122,7 @@
                                     <rect key="frame" x="63" y="537" width="288" height="53"/>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBG@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3x-Qk-BLh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HomeBG@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3x-Qk-BLh">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lu2-RE-jAF">
